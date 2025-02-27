@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------
 pipeline {
    agent {
-      label 'slave1'
+      label 'slave2'
    }
    stages {
       stage('Say Hello') {
